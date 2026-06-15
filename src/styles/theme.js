@@ -1,0 +1,41 @@
+export const theme = {
+  colors: {
+    primary: '#4F46E5',
+    primaryHover: '#4338CA',
+    secondary: '#7C3AED',
+    background: '#0F0F23',
+    surface: '#1A1A2E',
+    surfaceLight: '#2D2D44',
+    border: '#334155',
+    borderLight: '#475569',
+    text: '#FFFFFF',
+    textSecondary: '#94A3B8',
+    handle: '#4F46E5',
+    success: '#10B981',
+    error: '#EF4444',
+    warning: '#F59E0B',
+  },
+  sizes: {
+    nodeWidth: 240,
+    nodeMinHeight: 80,
+    toolbarHeight: 80,
+    handleSize: 8,
+  },
+  spacing: {
+    xs: '4px',
+    sm: '8px',
+    md: '12px',
+    lg: '16px',
+    xl: '20px',
+  },
+  borderRadius: {
+    sm: '4px',
+    md: '8px',
+    lg: '12px',
+  },
+  shadows: {
+    sm: '0 2px 4px rgba(0,0,0,0.2)',
+    md: '0 4px 12px rgba(0,0,0,0.3)',
+    lg: '0 8px 20px rgba(0,0,0,0.4)',
+  },
+};
